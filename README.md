@@ -234,7 +234,7 @@ def store(data):
     state["PC"] += 1
 
 def trap(data):
-    # the TRAP instruction is creating us a lot of problems, so lets just skip it
+    # the TRAP instruction is creating us a lot of problems, so let's just skip it
     global state
     state["PC"] += 1
 
