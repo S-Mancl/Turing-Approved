@@ -8,5 +8,5 @@ build:
 test:
 	python3 scripts/test_parseRAM.py
 doc:
-	pandoc -V geometry:margin=1cm -o writeup/TuringApproved-Writeup.pdf writeup/TuringApproved-Writeup.md
+	pandoc -V geometry:margin=1cm -o writeup/TuringApproved-Writeup.pdf README.md
 
